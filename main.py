@@ -36,4 +36,4 @@ if __name__ == "__main__":
     if extracted != "No Upcoming Tours":
         if not extracted in "data.txt":
               store(extracted)
-              send_email()
+              send_email(message="Hey, new event was found")
