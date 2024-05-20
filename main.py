@@ -1,7 +1,10 @@
 import requests
 import selectorlib
+import smtplib, ssl
+import os
 
-
+"INSERT INTO events VALUES ('Tigers', 'Tiger City', '2088.10.14')"
+"SELECT * FROM events WHERE date='2088.10.15' "
 URL = "https://programmer100.pythonanywhere.com/tours/"
 
 def scrape(url):
@@ -17,6 +20,20 @@ def extract(source):
     return value
 
 def send_email():
+    def send_email(message):
+        host = "smtp.gmail.com"
+        port = 465
+
+        username = ""
+        password = "here_goes_your_gmail_password"
+
+        receiver = ""
+        context = ssl.create_default_context()
+
+        with smtplib.SMTP_SSL(host, port, context=context) as server:
+            server.login(username, password)
+            server.sendmail(username, receiver, message)
+
     print("Email was sent!")
 
 def store(extracted):
@@ -36,4 +53,3 @@ if __name__ == "__main__":
     if extracted != "No Upcoming Tours":
         if not extracted in "data.txt":
               store(extracted)
-              send_email(message="Hey, new event was found")
