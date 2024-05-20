@@ -1,26 +1,10 @@
-No upcoming tours
-Lions of the IDE, Clone City, 6.5.2088
-No upcoming tours
-No upcoming tours
-Feng Suave, Minimalia City, 5.5.2089
-Feng Suave, Minimalia City, 5.5.2089
-No upcoming tours
-No upcoming tours
-No upcoming tours
-No upcoming tours
-Feng Suave, Minimalia City, 5.5.2089
-Feng Suave, Minimalia City, 5.5.2089
-No upcoming tours
-No upcoming tours
-Lions of the IDE, Clone City, 6.5.2088
-Lions of the IDE, Clone City, 6.5.2088
-No upcoming tours
-No upcoming tours
-Feng Suave, Minimalia City, 5.5.2089
-Feng Suave, Minimalia City, 5.5.2089
-No upcoming tours
-No upcoming tours
-Feng Suave, Minimalia City, 5.5.2089
-Feng Suave, Minimalia City, 5.5.2089
-Feng Suave, Minimalia City, 5.5.2089
-Feng Suave, Minimalia City, 5.5.2089
+date,temperature
+
+22-10-18-15-49-01,19
+22-10-18-15-49-51,18
+22-10-18-16-01-55,19
+22-10-18-16-01-56,18
+22-10-18-16-01-58,18
+22-10-18-16-02-00,18
+22-10-18-16-02-01,20
+22-10-18-16-21-28,18
